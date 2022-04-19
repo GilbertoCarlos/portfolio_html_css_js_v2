@@ -193,3 +193,25 @@ span{
     background: #ef0454;
     color: #fff;
 }
+
+.social{
+    position: absolute;
+    top: 50%;
+    padding: 0 7%;
+    transform: translateY((-50%)); 
+}
+
+.social ul li{
+    margin: 20px 0;
+}
+
+.social ul li i{
+    font-size: 22px;
+    color: #161616;
+    transition: all .3s;
+}
+
+.social ul li i:hover{
+    transform: translateY(-5px);
+    color: #ef0454;
+}
