@@ -215,3 +215,116 @@ span{
     transform: translateY(-5px);
     color: #ef0454;
 }
+
+@media (max-width: 1360px){
+
+    header{
+        padding: 18px 2%;
+    }
+    section{
+        padding: 0 2%;
+        transition: .2s;
+    }
+    .social{
+        display: none;
+    }
+
+}
+
+@media (max-width: 1120px){
+    header{
+        padding: 14px 2%;
+    }
+    #menu-icon{
+        display: initial;
+    }
+    .text h1{
+        font-size: 78px;
+        transition: .2s;
+    }
+    .text h2{
+        font-size: 58px;
+        transition: .2s;
+    }
+    .text p{
+        font-size: 17px;
+        transition: .2s;
+    }
+
+    .btn{
+        height: 50px;
+        line-height: 50px;
+        padding: 0 28px;
+        
+    }
+    .btn2{
+        margin-left: 20px;
+    }
+    .btn2 span i {
+        height: 50px;
+        width: 50px;
+        font-size: 30px;
+    }
+
+    .navbar{
+        position: absolute;
+        top: -700px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: #ef0454;
+        text-align: left;
+        transition: all .35s ease;
+    }
+    .navbar a {
+        display: block;
+        padding: 1rem;
+        margin: 1.3rem;
+        color: #fff;
+        border-left: 2px solid #fff;
+        /* transition: all 0.4s ease; */
+    }
+    .navbar a:hover{
+        background: #fff;
+        color: #161616
+    }
+    .navbar a::after{
+        display: none;
+    }
+    .navbar.active{
+        top: 100%;
+    }
+
+}
+
+@media (max-width: 640px){
+    section{
+        padding: 0 3%;
+    }
+    header{
+        padding: 14px 3%;
+    }
+    .container{
+        width: 100%;
+        background-size: cover;
+        background-position: right 35% bottom 45%;
+    }
+    .text h1{
+        font-size: 58px;
+        transition: .2s;
+    }
+    .text h2{
+        font-size: 38px;
+        transition: .2s;
+    }
+    .text p{
+        font-size: 12px;
+        transition: .2s;
+    }
+    .btn .second{
+        font-size: 12px;
+        font-weight: 500;
+        width: 40%;       
+    }
+}
